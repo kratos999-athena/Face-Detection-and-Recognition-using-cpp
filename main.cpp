@@ -33,7 +33,7 @@ public:
         cvtColor(image, grayscale, COLOR_BGR2GRAY); 
         CascadeClassifier face_cascade;
 
-        if (!face_cascade.load("C:/Users/anurag Agarwal/source/repos/opencvcourse/opencvcourse/images/haarcascade_frontalface_default.xml")) {
+        if (!face_cascade.load("/repos/opencvcourse/opencvcourse/images/haarcascade_frontalface_default.xml")) {
             cout << "Error loading Haar Cascade!" << endl;
             return {}; 
         }
